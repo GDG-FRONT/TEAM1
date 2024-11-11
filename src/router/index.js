@@ -6,7 +6,6 @@ import Layout from "../layout/Layout";
 const Home = lazy(() => import("../page/home"));
 const List = lazy(() => import("../page/list"));
 const Record = lazy(() => import("../page/record"));
-
 const Mypage = lazy(() => import("../page/mypage"));
 
 const router = createBrowserRouter([
@@ -23,7 +22,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "list",
+        path: "/list",
         element: (
           <Suspense fallback={<Loading />}>
             <List />
@@ -32,7 +31,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "record",
+        path: "/record",
         element: (
           <Suspense fallback={<Loading />}>
             <Record />
@@ -40,7 +39,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "mypage",
+        path: "/mypage",
         element: (
           <Suspense fallback={<Loading />}>
             <Mypage />

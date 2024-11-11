@@ -1,0 +1,96 @@
+.mypage-container {
+  padding: 20px;
+  background-color: #f7f7f7;
+  height: 100%;
+}
+
+.profile-card {
+  display: flex;
+  align-items: flex-start;
+  border-radius: 6px;
+  background: rgba(227, 175, 56, 0.70); 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .profile-info {
+    h2 {
+      color: var(--G1, #1C1C1C);
+      font-feature-settings: 'liga' off, 'clig' off;
+      font-family: Pretendard;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    p.head {
+      margin: 5px 0;
+      color: #333;
+    }
+    p.tail {
+      color: #FFF;
+      font-feature-settings: 'liga' off, 'clig' off;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+}
+
+.section-title {
+  color: #5F5F5F;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.18px;
+padding-bottom: 20px;
+}
+
+.diary-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.diary-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+
+  .diary-date {
+    color: #f1c40f;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+}
+
+.text-container{
+  display: flex;
+  flex-direction: row;
+  padding-top: 25px;
+}
+
