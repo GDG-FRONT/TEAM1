@@ -23,7 +23,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "list",
+        path: "/list",
         element: (
           <Suspense fallback={<Loading />}>
             <List />
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "record",
+        path: "/record",
         element: (
           <Suspense fallback={<Loading />}>
             <Record />
@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "mypage",
+        path: "/mypage",
         element: (
           <Suspense fallback={<Loading />}>
             <Mypage />

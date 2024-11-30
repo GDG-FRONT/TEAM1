@@ -1,7 +1,12 @@
 import React from "react";
-
-const index = () => {
-  return <div>index</div>;
+import Box from "./list_box"
+const List= () => {
+  
+  return (
+  <div>
+    <Box />
+  </div>
+  )
 };
 
-export default index;
+export default List;
